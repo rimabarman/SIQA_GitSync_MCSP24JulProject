@@ -13,6 +13,11 @@ packages:
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: rimabarman
   gitBranch: main
+- name: SIQAJDBCAdapterTests
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: rimabarman
+  gitBranch: main
 services:
 - serviceName: project.siqa_gitsync_mcsp24jul.integrations:Call_TPP_Service
   packages:
