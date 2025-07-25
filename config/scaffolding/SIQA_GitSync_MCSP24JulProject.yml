@@ -18,6 +18,11 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: rimabarman
   gitBranch: main
+- name: DADA_GlobalVariable1
+  gitServerName: rimaSCName
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: rimabarman
+  gitBranch: main
 services:
 - serviceName: project.siqa_gitsync_mcsp24jul.integrations:Call_TPP_Service
   packages:
