@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rimabarman
   gitUsername: rimabarman
   gitBranch: main
+services:
+- serviceName: project.siqa_gitsync_mcsp24jul.integrations:Call_refData
+  packages:
+  - name: SIQA_GitSync_MCSP24JulProject
+    version: "1.0"
+- serviceName: project.siqa_gitsync_mcsp24jul.referencedata:refData
+  packages:
+  - name: SIQA_GitSync_MCSP24JulProject
+    version: "1.0"
