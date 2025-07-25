@@ -8,16 +8,35 @@ packages:
   gitUsername: rimabarman
   gitBranch: main
 - name: TPP_services_in_FCS
+  version: "1.0"
   gitServerName: rimaSCName
   gitUrl: https://github.com/Karthik-V-IBM-10
   gitUsername: rimabarman
   gitBranch: main
 services:
+- serviceName: project.siqa_gitsync_mcsp24jul.integrations:Call_TPP_Service
+  packages:
+  - name: SIQA_GitSync_MCSP24JulProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: services:add3Ints
+  packages:
+  - name: TPP_services_in_FCS
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2068
 - serviceName: project.siqa_gitsync_mcsp24jul.integrations:Call_refData
   packages:
   - name: SIQA_GitSync_MCSP24JulProject
     version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
 - serviceName: project.siqa_gitsync_mcsp24jul.referencedata:refData
   packages:
   - name: SIQA_GitSync_MCSP24JulProject
+    version: "1.0"
+  - name: TPP_services_in_FCS
     version: "1.0"
